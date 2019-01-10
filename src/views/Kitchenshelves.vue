@@ -1,7 +1,7 @@
 <template>
-   <div class="bedroom">
+   <div class="kitchenshelves">
       <Navbar></Navbar>
-      <h1>DETTA ÄR SOVRUM SIDAN</h1>
+      <h1>DETTA ÄR SIDAN TILL ALLA KÖKSHYLLOR</h1>
    </div>
 </template>
 
@@ -10,7 +10,7 @@
 import Navbar from '@/components/Navbar.vue'
 
 export default {
-  name: 'bedroom', 
+  name: 'kitchenshelves', 
   components: {
     Navbar
   }
