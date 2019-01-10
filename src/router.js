@@ -14,12 +14,36 @@ export default new Router({
       component: Home
     },
     {
-      path: '/about',
-      name: 'about',
+      path: '/kitchen',
+      name: 'kitchen',
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
-    }
+      component: () => import(/* webpackChunkName: "kitchen" */ './views/Kitchen.vue')
+    },
+    {
+      path: '/living',
+      name: 'living',
+      // route level code-splitting
+      // this generates a separate chunk (about.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import(/* webpackChunkName: "living" */ './views/Living.vue')
+    },
+    {
+      path: '/office',
+      name: 'office',
+      // route level code-splitting
+      // this generates a separate chunk (about.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import(/* webpackChunkName: "office" */ './views/Office.vue')
+    },
+    {
+      path: '/bedroom',
+      name: 'bedroom',
+      // route level code-splitting
+      // this generates a separate chunk (about.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import(/* webpackChunkName: "bedroom" */ './views/Bedroom.vue')
+    },
   ]
 })
