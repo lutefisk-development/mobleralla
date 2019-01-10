@@ -1,29 +1,17 @@
-# mobleralla1
+open the folder in terminal.
 
-## Project setup
-```
-npm install
-```
+type vue ui
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+go to serve in the UserInterface
 
-### Compiles and minifies for production
-```
-npm run build
-```
+click "Run task"
 
-### Run your tests
-```
-npm run test
-```
+click "Open app"
 
-### Lints and fixes files
-```
-npm run lint
-```
+//mikael testar
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+//anita testar
+
+//anita testar IGEN
+
+anju 
