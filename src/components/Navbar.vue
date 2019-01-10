@@ -20,8 +20,8 @@
           <router-link to="/countertops" class="navbar-brand" style="color: #45A9EB;">Bänkskivor</router-link>
           <router-link to="/worktops" class="navbar-brand" style="color: #45A9EB;">Köksbänkar</router-link>
           <router-link to="/kitchenshelves" class="navbar-brand" style="color: #45A9EB;">Kökshyllor</router-link>
-          <router-link to="/cupboards" class="navbar-brand" style="color: #45A9EB;">Lådhurtsar</router-link>
-          <router-link to="/drawercabinets" class="navbar-brand" style="color: #45A9EB;">Skåpluckor</router-link>
+          <router-link to="/cupboards" class="navbar-brand" style="color: #45A9EB;">Skåpluckor</router-link>
+          <router-link to="/drawercabinets" class="navbar-brand" style="color: #45A9EB;">Lådhurtsar</router-link>
          </div>
       </li>
       <li class="nav-item dropdown">
