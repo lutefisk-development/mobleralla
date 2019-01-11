@@ -1,8 +1,12 @@
 <template>
   <div class="home">
+<<<<<<< Updated upstream
     <Navbar></Navbar>
     <h1>DETTA ÄR STARTSIDAN</h1>
     <homeContent></homeContent>
+=======
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
+>>>>>>> Stashed changes
   </div>
 </template>
 
