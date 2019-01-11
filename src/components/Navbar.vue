@@ -65,6 +65,15 @@
    </nav>
 </template>
 
+<style>
+.navbar-brand {
+  display: block;
+  font-size: 1rem;
+  text-align: center;
+}
+</style>
+
+
 <script>
 export default {
    name: 'Navbar'
