@@ -1,5 +1,5 @@
 <template>
-   <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#45A9EB;">
+   <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color:#45A9EB;">
       <div class="navbar-brand">
     <img src="https://wcms18.nodehill.se/wp-content/uploads/2019/01/mobleralla.png" width="100" height="100" class="d-flex align-items-end" style="border-radius: 50px;">
   </div>

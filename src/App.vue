@@ -16,7 +16,7 @@ body {
 }
 
 nav {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .navbar-brand {
