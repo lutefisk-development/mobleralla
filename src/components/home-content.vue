@@ -92,6 +92,7 @@ flex-direction: column;
     padding: 2px;
     margin-top: 20px;
     align-self: center;
+    text-align: center;
 }
 
 #text-box-two {
