@@ -15,19 +15,6 @@ body {
   /* background-color: #D8F1FC; */
 }
 
-<<<<<<< HEAD
-=======
-nav {
-  margin-bottom: 50px;
-}
-
-.navbar-brand {
-  display: block;
-  font-size: 1rem;
-  text-align: center;
-}
-
->>>>>>> master
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
