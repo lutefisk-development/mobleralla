@@ -1,7 +1,7 @@
 <template>
-   <div class="office">
+   <div class="countertops">
       <Navbar></Navbar>
-      <h1>DETTA ÄR KONTOR SIDAN</h1>
+      <h1>DETTA ÄR SIDAN TILL ALLA BÄNKSKIVOR</h1>
    </div>
 </template>
 
@@ -10,7 +10,7 @@
 import Navbar from '@/components/Navbar.vue'
 
 export default {
-  name: 'office', 
+  name: 'countertops', 
   components: {
     Navbar
   }
