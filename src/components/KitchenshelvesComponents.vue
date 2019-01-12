@@ -21,29 +21,29 @@
 </template>
 
 <script>
-import image1 from "@/images/bedroom-1807837_1920.jpg";
-import image2 from "@/images/bedroom-1078890_1920.jpg";
-import image3 from "@/images/bedroom-1807837_1920.jpg";
+import image1 from "@/images/kokshylla.jpg";
+import image2 from "@/images/kokshylla1.jpeg";
+import image3 from "@/images/kokshylla2.png";
 export default {
   data() {
     return {
       products: [
         {
-          title: "Kitchenshelves1",
+          title: "Accent Vägghylla",
           price: "500",
           text: `Praesent vestibulum dapibus nibh. Morbi ac felis. Aenean commodo ligula eget dolor.
                   Fusce neque. Praesent adipiscing. Ut tincidunt tincidunt erat.`,
           image: image1
         },
         {
-          title: "Kitchenshelves2",
+          title: "Cirkular hylla",
           price: "500",
           text: `Praesent vestibulum dapibus nibh. Morbi ac felis. Aenean commodo ligula eget dolor.
                   Fusce neque. Praesent adipiscing. Ut tincidunt tincidunt erat.`,
           image: image2
         },
         {
-          title: "Kitchenshelves3",
+          title: "String kökshylla",
           price: "500",
           text: `Praesent vestibulum dapibus nibh. Morbi ac felis. Aenean commodo ligula eget dolor.
                   Fusce neque. Praesent adipiscing. Ut tincidunt tincidunt erat.`,
