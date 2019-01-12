@@ -13,11 +13,11 @@ import BedroomComponent from '@/components/BedroomComponent.vue'
 import Footer from '@/components/Footer.vue'
 
 export default {
-  name: 'bedroom', 
+  name: "bedroom",
   components: {
     Navbar,
     BedroomComponent,
     Footer
   }
-}
+};
 </script>

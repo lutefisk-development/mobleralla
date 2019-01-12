@@ -1,18 +1,20 @@
 <template>
-   <div class="drawercabinets">
-      <Navbar></Navbar>
-      <h1>DETTA ÄR SIDAN TILL ALLA LÅDHURTSAR</h1>
-   </div>
+  <div class="product">
+    <Navbar></Navbar>
+    <products></products>
+  </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Navbar from '@/components/Navbar.vue'
+import Navbar from "@/components/Navbar.vue";
+import Products from "@/components/DrawercabinetsComponents.vue";
 
 export default {
-  name: 'drawercabinets', 
+  name: "product",
   components: {
-    Navbar
+    Navbar,
+    Products
   }
-}
+};
 </script>

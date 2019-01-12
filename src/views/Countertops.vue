@@ -1,18 +1,20 @@
 <template>
-   <div class="countertops">
-      <Navbar></Navbar>
-      <h1>DETTA ÄR SIDAN TILL ALLA BÄNKSKIVOR</h1>
-   </div>
+  <div class="product">
+    <Navbar></Navbar>
+    <products></products>
+  </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Navbar from '@/components/Navbar.vue'
+import Navbar from "@/components/Navbar.vue";
+import Products from "@/components/CountertopsComponents.vue";
 
 export default {
-  name: 'countertops', 
+  name: "product",
   components: {
-    Navbar
+    Navbar,
+    Products
   }
-}
+};
 </script>
