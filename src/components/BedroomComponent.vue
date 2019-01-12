@@ -1,19 +1,19 @@
 <template>
    <div class="bedroomcomponent">
-      <div class="container-fluid first">
+      <div class="container first">
          <div class="row">
             <div class="col-lg-3 col-md-4 col-sm-6">
                <h5>{{ header5 }}</h5>
-               <p>{{ text }}</p>
+               <p>{{ text1 }}</p>
             </div>
-            <div class="col">
+            <div class="col col-picture">
                <img :src="image1" alt="">
             </div>
-            <div class="col">
+            <div class="col col-picture">
                <img :src="image2" alt="">
             </div>
          </div>
-         <div class="container-fluid second">
+         <div class="container second">
             <div class="row">
                <div class="col-12">
                   <h3>{{ header3 }}</h3>
@@ -48,16 +48,14 @@
 </template>
 
 <style>
-  .row {
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-
   .col-3, .col {
-    
-    height: 200px;
+    height: 230px;
     margin: 0 5px 30px 5px;
     padding: 0;
+  }
+
+  .col-picture {
+     margin-bottom: 0;
   }
 
   .col>img {
@@ -75,14 +73,14 @@
     text-align: left;
   }
   h3 {
-    margin: 10px 0 10px 0;
+    margin: 45px 0 10px 0;
   }
 
   h5 {
     margin-bottom: 0.7rem;
   }
    
-   .container-fluid {
+   .first, .second {
       padding: 0; 
    }
    
@@ -107,7 +105,7 @@ export default {
       return {
          header5: 'Sov gott!',
          header3: 'Våra nyaste produkter!',
-         text: `Vi vet betydningen av en god natt sömn. Varje möbel vi säljer ned till minsta detalj, har en uppgift. Att se till att du får den bästa sömnen, varje natt!`,
+         text1: `Vi vet betydningen av en god natt sömn. Varje möbel vi säljer ned till minsta detalj, har en uppgift. Att se till att du får den bästa sömnen, varje natt!`,
          image1: image1,
          image2: image2,
          image3: image3,
