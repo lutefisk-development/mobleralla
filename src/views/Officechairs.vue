@@ -1,18 +1,20 @@
 <template>
-   <div class="officechairs">
-      <Navbar></Navbar>
-      <h1>DETTA ÄR SIDAN TILL ALLA KONTORSSTOLAR</h1>
-   </div>
+  <div class="product">
+    <Navbar></Navbar>
+    <products></products>
+  </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Navbar from '@/components/Navbar.vue'
+import Navbar from "@/components/Navbar.vue";
+import Products from "@/components/OfficechairsComponents.vue";
 
 export default {
-  name: 'officechairs', 
+  name: "product",
   components: {
-    Navbar
+    Navbar,
+    Products
   }
-}
+};
 </script>
