@@ -21,29 +21,29 @@
 </template>
 
 <script>
-import image1 from "@/images/bedroom-1807837_1920.jpg";
-import image2 from "@/images/bedroom-1078890_1920.jpg";
-import image3 from "@/images/bedroom-1807837_1920.jpg";
+import image1 from "@/images/garderob.jpg";
+import image2 from "@/images/garderob1.jpg";
+import image3 from "@/images/garderob2.jpg";
 export default {
   data() {
     return {
       products: [
         {
-          title: "Wardrobe1",
-          price: "500",
+          title: "Helena garderob",
+          price: "1500",
           text: `Praesent vestibulum dapibus nibh. Morbi ac felis. Aenean commodo ligula eget dolor.
                   Fusce neque. Praesent adipiscing. Ut tincidunt tincidunt erat.`,
           image: image1
         },
         {
-          title: "Wardrobe2",
+          title: "Mega lyx",
           price: "500",
           text: `Praesent vestibulum dapibus nibh. Morbi ac felis. Aenean commodo ligula eget dolor.
                   Fusce neque. Praesent adipiscing. Ut tincidunt tincidunt erat.`,
           image: image2
         },
         {
-          title: "Wardrobe3",
+          title: "Garderob Resisto",
           price: "500",
           text: `Praesent vestibulum dapibus nibh. Morbi ac felis. Aenean commodo ligula eget dolor.
                   Fusce neque. Praesent adipiscing. Ut tincidunt tincidunt erat.`,
