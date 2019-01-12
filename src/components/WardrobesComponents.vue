@@ -29,21 +29,21 @@ export default {
     return {
       products: [
         {
-          title: "wardrobe1",
+          title: "Wardrobe1",
           price: "500",
           text: `Praesent vestibulum dapibus nibh. Morbi ac felis. Aenean commodo ligula eget dolor.
                   Fusce neque. Praesent adipiscing. Ut tincidunt tincidunt erat.`,
           image: image1
         },
         {
-          title: "wardrobe2",
+          title: "Wardrobe2",
           price: "500",
           text: `Praesent vestibulum dapibus nibh. Morbi ac felis. Aenean commodo ligula eget dolor.
                   Fusce neque. Praesent adipiscing. Ut tincidunt tincidunt erat.`,
           image: image2
         },
         {
-          title: "wardrobe3",
+          title: "Wardrobe3",
           price: "500",
           text: `Praesent vestibulum dapibus nibh. Morbi ac felis. Aenean commodo ligula eget dolor.
                   Fusce neque. Praesent adipiscing. Ut tincidunt tincidunt erat.`,
