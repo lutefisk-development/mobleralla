@@ -5,31 +5,22 @@
             <div id="main-box-one">
                 <div id="text-box"><p>Headline</p></div>
                 <div class="justify" id="img-box">
-                    <img src="/assets-own/torkelson-hylla-steel.jpeg" alt="blabla">
+                    <img src="../images/torkelson-hylla-steel.jpeg" alt="blabla">
                 </div>
             </div>
-            
-            
         </div>
-
-
-
-
+        
         <div id="box-group-two">
             <div id="main-box-two">
                  <div id="text-box-two"><p>Headline</p></div>
                 <div class="justify" id="img-box-two">
-                     <img src="/assets-own/torkelson-hylla-steel.jpeg" alt="blabla">
+                     <img src="../images/torkelson-hylla-steel.jpeg" alt="blabla">
                 </div>
             </div>
-           
-            
         </div>
     </div>
-   <footer id="site-foot"></footer> 
-
+    <footer id="site-foot"></footer> 
 </div>
-    
 </template>
 
 <style>

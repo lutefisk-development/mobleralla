@@ -20,33 +20,31 @@
                </div>
             </div>
             <div class="row">
-               
-                  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                           <img :src="image3" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                           <img :src="image4" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                           <img :src="image5" class="d-block w-100" alt="...">
-                        </div>
+               <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <img :src="image3" class="d-block w-100" alt="...">
                      </div>
-                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                     </a>
-                     <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                     </a>
+                     <div class="carousel-item">
+                        <img :src="image4" class="d-block w-100" alt="...">
+                     </div>
+                     <div class="carousel-item">
+                        <img :src="image5" class="d-block w-100" alt="...">
+                     </div>
                   </div>
-               
-            </div>
-         </div>
-      </div>
-   </div>
+                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                     <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                     <span class="sr-only">Next</span>
+                  </a>
+               </div>
+            </div> <!-- closing row tag -->
+         </div> <!-- closing container-fluid second tag -->
+      </div> <!-- closing container-fluid first tag -->
+   </div> <!-- closing bedroomcomponent tag -->
 </template>
 
 <style>
@@ -101,7 +99,7 @@ import image1 from '@/images/pillows-1031079_1920.jpg'
 import image2 from '@/images/bedroom-1078890_1920.jpg'
 import image3 from '@/images/apartment-1822409_1920.jpg'
 import image4 from '@/images/bedroom-1807837_1920.jpg'
-import image5 from '@/images/wall-panel-416041_1280.jpg'
+import image5 from '@/images/nursery-1078923_1920.jpg'
 
 export default {
    name: 'BedroomComponent',
