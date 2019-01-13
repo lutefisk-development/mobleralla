@@ -7,8 +7,7 @@ Vue.use(Router)
 export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
-  routes: [
-    {
+  routes: [{
       path: '/',
       name: 'home',
       component: Home
@@ -19,7 +18,7 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "kitchen" */ './views/Kitchen.vue')
+      component: () => import( /* webpackChunkName: "kitchen" */ './views/Kitchen.vue')
     },
     {
       path: '/living',
@@ -27,7 +26,7 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "living" */ './views/Living.vue')
+      component: () => import( /* webpackChunkName: "living" */ './views/Living.vue')
     },
     {
       path: '/office',
@@ -35,7 +34,7 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "office" */ './views/Office.vue')
+      component: () => import( /* webpackChunkName: "office" */ './views/Office.vue')
     },
     {
       path: '/bedroom',
@@ -43,7 +42,7 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "bedroom" */ './views/Bedroom.vue')
+      component: () => import( /* webpackChunkName: "bedroom" */ './views/Bedroom.vue')
     },
     {
       path: '/sofas',
@@ -51,7 +50,7 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "sofas" */ './views/Sofas.vue')
+      component: () => import( /* webpackChunkName: "sofas" */ './views/Sofas.vue')
     },
     {
       path: '/armchairs',
@@ -59,7 +58,7 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "armchairs" */ './views/Armchairs.vue')
+      component: () => import( /* webpackChunkName: "armchairs" */ './views/Armchairs.vue')
     },
     {
       path: '/tables',
@@ -67,7 +66,7 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "tables" */ './views/Tables.vue')
+      component: () => import( /* webpackChunkName: "tables" */ './views/Tables.vue')
     },
     {
       path: '/desks',
@@ -75,7 +74,7 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "desks" */ './views/Desks.vue')
+      component: () => import( /* webpackChunkName: "desks" */ './views/Desks.vue')
     },
     {
       path: '/officechairs',
@@ -83,7 +82,7 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "officechairs" */ './views/Officechairs.vue')
+      component: () => import( /* webpackChunkName: "officechairs" */ './views/Officechairs.vue')
     },
     {
       path: '/bookshelves',
@@ -91,7 +90,7 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "bookshelves" */ './views/Bookshelves.vue')
+      component: () => import( /* webpackChunkName: "bookshelves" */ './views/Bookshelves.vue')
     },
     {
       path: '/beds',
@@ -99,7 +98,7 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "beds" */ './views/Beds.vue')
+      component: () => import( /* webpackChunkName: "beds" */ './views/Beds.vue')
     },
     {
       path: '/nightstands',
@@ -107,7 +106,7 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "nightstands" */ './views/Nightstands.vue')
+      component: () => import( /* webpackChunkName: "nightstands" */ './views/Nightstands.vue')
     },
     {
       path: '/wardrobes',
@@ -115,7 +114,7 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "wardrobes" */ './views/Wardrobes.vue')
+      component: () => import( /* webpackChunkName: "wardrobes" */ './views/Wardrobes.vue')
     },
     {
       path: '/countertops',
@@ -123,7 +122,7 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "countertops" */ './views/Countertops.vue')
+      component: () => import( /* webpackChunkName: "countertops" */ './views/Countertops.vue')
     },
     {
       path: '/worktops',
@@ -131,7 +130,7 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "worktops" */ './views/Worktops.vue')
+      component: () => import( /* webpackChunkName: "worktops" */ './views/Worktops.vue')
     },
     {
       path: '/kitchenshelves',
@@ -139,7 +138,7 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "kitchenshelves" */ './views/Kitchenshelves.vue')
+      component: () => import( /* webpackChunkName: "kitchenshelves" */ './views/Kitchenshelves.vue')
     },
     {
       path: '/drawercabinets',
@@ -147,7 +146,7 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "drawercabinets" */ './views/Drawercabinets.vue')
+      component: () => import( /* webpackChunkName: "drawercabinets" */ './views/Drawercabinets.vue')
     },
     {
       path: '/cupboards',
@@ -155,7 +154,7 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "cupboards" */ './views/Cupboards.vue')
+      component: () => import( /* webpackChunkName: "cupboards" */ './views/Cupboards.vue')
     }
   ]
 })

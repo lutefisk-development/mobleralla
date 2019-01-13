@@ -1,5 +1,5 @@
 <template>
-<div id="master-box" >
+  <div id="master-box">
     <div id="main-box">
         <div id="box-group-one">
             <div id="main-box-one">
@@ -25,83 +25,68 @@
            
             
         </div>
+         
+      </div>
+       <footer id="site-foot"></footer>
     </div>
-   <footer id="site-foot"></footer> 
-
-</div>
-    
+  
+  
 </template>
 
 <style>
-
 #master-box {
-    height: 100vh;
+  height: 100vh;
 }
 
 #main-box {
-    display: flex;
-    height: 100%;
-    
-    
+  display: flex;
+  height: 100%;
 }
 
-
-
 #main-box-one {
-display: flex;
-flex: 1;
-margin: 2vw;
-background-color: #45A9EB;
-width: 45vw;
-height: 60vh;
-flex-direction: column;
-
-
+  display: flex;
+  flex: 1;
+  margin: 2vw;
+  background-color: #45a9eb;
+  width: 45vw;
+  height: 60vh;
+  flex-direction: column;
 }
 
 #main-box-two {
-display: flex;
-flex: 1;
-margin: 2vw;
-background-color: #45A9EB;
-width: 45vw;
-height: 60vh;
-flex-direction: column;
-
-
+  display: flex;
+  flex: 1;
+  margin: 2vw;
+  background-color: #45a9eb;
+  width: 45vw;
+  height: 60vh;
+  flex-direction: column;
 }
 
-
-
 #site-foot {
-    background-color: #45A9EB;
-    
-    width: 100%;
-    height: 20%;
-  
-    
-    
-    
-    
+  background-color: #45a9eb;
+
+  width: 100%;
+  height: 20%;
 }
 
 #text-box {
-    background-color: white;
-    height: 30px;
-    width: 300px;
-    padding: 2px;
-    margin-top: 20px;
-    align-self: center;
-    text-align: center;
+  background-color: white;
+  height: 30px;
+  width: 300px;
+  padding: 2px;
+  margin-top: 20px;
+  align-self: center;
+  text-align: center;
 }
 
 #text-box-two {
-    background-color: white;
-    height: 30px;
-    width: 300px;
-    padding: 2px;
-    margin-top: 20px;
-    align-self: center; 
+  background-color: white;
+  height: 30px;
+  width: 300px;
+  padding: 2px;
+  margin-top: 20px;
+  align-self: center;
 }
 
 #img-box,
