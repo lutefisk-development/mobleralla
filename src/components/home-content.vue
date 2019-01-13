@@ -3,9 +3,9 @@
     <div id="main-box">
         <div id="box-group-one">
             <div id="main-box-one">
-                <div id="text-box"><p>Headline</p></div>
+                <div id="text-box"><p>Sofistikerad Soffa</p></div>
                 <div class="justify" id="img-box">
-                    <img src="/assets-own/torkelson-hylla-steel.jpeg" alt="blabla">
+                    <img :src="soffa1" alt="blabla">
                 </div>
             </div>
             
@@ -17,9 +17,9 @@
 
         <div id="box-group-two">
             <div id="main-box-two">
-                 <div id="text-box-two"><p>Headline</p></div>
+                 <div id="text-box-two"><p>Hyllad Hylla</p></div>
                 <div class="justify" id="img-box-two">
-                     <img src="/assets-own/torkelson-hylla-steel.jpeg" alt="blabla">
+                     <img :src="hylla1" alt="blabla">
                 </div>
             </div>
            
@@ -110,18 +110,41 @@ flex-direction: column;
     height: 300px;
     width: 500px;
     padding: 2px;
+   
+  
 }
+
+
 
 .justify {
     margin: auto;
-   
+
 }
+
+.justify img {
+    height: 100%; 
+    width: 100%; 
+    object-fit: cover;
+}
+
 
 
 </style>
+
 <script>
+import soffa1 from '@/images/soffa.jpg'
+import hylla1 from '@/images/hylla.jpeg'
+
+
 export default {
     name: "home-content",
-
+    data() {
+      return {
+        
+         soffa1: soffa1,
+         hylla1: hylla1
+      }
+   }
 }
 </script>
+
