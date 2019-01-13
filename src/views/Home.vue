@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <Navbar></Navbar>
-    <h1>DETTA ÄR STARTSIDAN</h1>
+  
     <homeContent></homeContent>
   </div>
 </template>
