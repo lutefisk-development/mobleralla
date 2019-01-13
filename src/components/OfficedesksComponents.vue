@@ -21,30 +21,30 @@
 </template>
 
 <script>
-import image1 from "@/images/bedroom-1807837_1920.jpg";
-import image2 from "@/images/bedroom-1078890_1920.jpg";
-import image3 from "@/images/bedroom-1807837_1920.jpg";
+import image1 from "@/images/skrivbord.jpg";
+import image2 from "@/images/skrivbord1.jpeg";
+import image3 from "@/images/skrivbord2.jpg";
 export default {
   data() {
     return {
       products: [
         {
-          title: "Officechair1",
-          price: "500",
+          title: "Elite Skrivbord",
+          price: "30500",
           text: `Praesent vestibulum dapibus nibh. Morbi ac felis. Aenean commodo ligula eget dolor.
                   Fusce neque. Praesent adipiscing. Ut tincidunt tincidunt erat.`,
           image: image1
         },
         {
-          title: "Officechair2",
-          price: "500",
+          title: "Bekant",
+          price: "5500",
           text: `Praesent vestibulum dapibus nibh. Morbi ac felis. Aenean commodo ligula eget dolor.
                   Fusce neque. Praesent adipiscing. Ut tincidunt tincidunt erat.`,
           image: image2
         },
         {
-          title: "Officechair3",
-          price: "500",
+          title: "Leonardo",
+          price: "10500",
           text: `Praesent vestibulum dapibus nibh. Morbi ac felis. Aenean commodo ligula eget dolor.
                   Fusce neque. Praesent adipiscing. Ut tincidunt tincidunt erat.`,
           image: image3
